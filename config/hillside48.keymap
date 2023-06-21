@@ -54,7 +54,7 @@
 &kp  TAB    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  SQT
 &mt  LSHIFT TAB &kp  A    &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  RSHFT  
 &kp  LCTRL    &kp  Z      &kp  X        &kp  C        &kp  V        &kp  B        &kp  C_PP                                          &lt  FNC TAB     &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  RCTRL
-                          &kp  LCTRL                  &kp  LGUI     &mo EXT     &kp  SPACE    &kp ESC             &kp RSHFT    &kp  BSPC    &mo  SYM_1     &kp  ENTER                   &kp  SQT   
+                          &kp  LCTRL                  &kp  LGUI     &mo ESC     &kp  EXT    &kp SPACE             &mt LSHFT BSPC    &kp  SYM_1    &mo  FNC     &kp  ENTER                   &kp  SQT   
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -75,7 +75,7 @@
                 sym_2_layer {
 
                         bindings = <
-&trans        &trans        &trans       &trans       &trans       &trans                                                                      &trans        &trans        &trans       &trans       &trans       &trans
+&trans        &kp ESC        &trans       &trans       &trans       &trans                                                                      &trans        &trans        &trans       &trans       &trans       &trans
 &kp  END      &kp  HASH     &kp  DOLLAR  &kp  LBKT    &kp  RBKT    &kp  GRAVE                                                                  &trans        &trans        &trans       &trans       &trans       &trans
 &trans        &trans        &kp CARET    &kp  LT      &kp  GT      &kp  TILDE    &trans                                              &trans    &trans        &trans        &trans       &trans       &trans       &trans
                             &trans                    &trans       &trans        &trans        &trans                 &trans    &trans      &trans        &trans                        &trans
@@ -100,7 +100,7 @@
                         
                         bindings = <
 &trans      &kp F1       &kp F2        &kp F3        &kp F4        &kp F5                                                                   &kp F6        &kp F7         &kp F8      &kp F9       &kp F10       &kp F11
-&trans      &trans       &trans        &trans        &trans        &trans                                                                   &trans         &trans          &trans       &trans        &trans         &kp F12
+&trans      &trans       &trans        &trans        &trans        &trans                                                                   &trans         &trans          &trans       &trans        &kp F5         &kp F12
 &trans      &trans       &trans        &trans        &trans        &trans        &trans                                             &trans     &trans         &trans          &trans       &trans        &trans         &trans
                             &trans                      &trans        &trans        &trans        &trans                 &trans     &trans     &trans        &trans                     &trans
                         >;
